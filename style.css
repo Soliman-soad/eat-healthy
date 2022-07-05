@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -20,7 +21,7 @@ h1 {
     width: 45%;
 }
 
-.flexible img {
+.top img {
     width: 100%;
 }
 
@@ -36,4 +37,14 @@ h1 {
 .top {
     margin: 50px 80px;
 
+}
+
+.about-me image {
+    width: 70%;
+}
+
+.about-me {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
