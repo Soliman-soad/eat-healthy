@@ -8,6 +8,12 @@ h1 {
     font-weight: 700;
 }
 
+.font {
+    margin: -5px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .blue-font {
     color: skyblue;
 }
@@ -39,7 +45,7 @@ h1 {
 
 }
 
-.about-me image {
+.about-me img {
     width: 70%;
 }
 
@@ -47,4 +53,46 @@ h1 {
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cook {
+    text-align: center;
+    margin: 100px;
+}
+
+.recipie {
+    display: flex;
+}
+
+.recipie div {
+    width: 50%;
+    margin: 5%;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipie img {
+    width: 100%;
+    text-align: center;
+}
+
+.view {
+    margin: 4.5%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    color: gray;
 }
