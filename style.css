@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.blue-font {
+    color: skyblue;
+}
+
+.flexible {
+    display: flex;
+    justify-content: center;
+}
+
+.flexible div {
+    width: 45%;
+}
+
+.flexible img {
+    width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(170, 193, 247), rgb(21, 150, 236));
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.top {
+    margin: 50px 80px;
+
+}
